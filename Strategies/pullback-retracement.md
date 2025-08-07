@@ -1,5 +1,3 @@
----
-
 ## 🧠 What is a Pullback?
 
 > A **pullback** is a temporary reversal in the direction of a prevailing trend.
