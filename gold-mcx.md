@@ -69,5 +69,34 @@ Perfect 👍 let’s do the same **keyword + brief summary style** for **GOLD MC
 * **Experts** → GOLD Big for hedging large exposure + arbitrage with GOLDM.
 
 ---
+Perfect idea 👍 A **side-by-side quick-reference table** for **Gold vs Silver vs Crude Oil Futures (MCX)** will make it super easy to compare.
 
-Do you also want me to prepare a **combined Gold vs Silver Futures quick-reference table** (side by side)? That would make comparisons easier for trading decisions.
+---
+
+# 📊 Gold vs Silver vs Crude Oil Futures (MCX)
+
+| Feature                       | **Gold (GOLDM – 100g)**                                | **Silver (SILVERM – 5kg)**             | **Crude Oil (CRUDEOIL – 100 bbl)**                    |
+| ----------------------------- | ------------------------------------------------------ | -------------------------------------- | ----------------------------------------------------- |
+| **Lot Size**                  | 100 g (0.1 kg)                                         | 5 kg                                   | 100 barrels (\~15900 L)                               |
+| **Contract Value**\* (approx) | ₹7L (₹70k/10g)                                         | ₹3.75L (₹75k/kg)                       | ₹6.5L (₹65/bbl × 100)                                 |
+| **Margin**                    | \~₹30k–50k                                             | \~₹20k–35k                             | \~₹50k–70k                                            |
+| **Tick Size**                 | ₹1 per 10g = ₹10/lot                                   | ₹1/kg = ₹5/lot                         | ₹1/bbl = ₹100/lot                                     |
+| **Liquidity**                 | Very High (GoldM best)                                 | High (SilverM > SilverMIC)             | Very High                                             |
+| **Volatility**                | Low–Medium (stable)                                    | High (very volatile)                   | High (news-driven)                                    |
+| **Best For**                  | Safe-haven, swing hedge                                | Aggressive traders, volatility plays   | Intraday, momentum, news trading                      |
+| **Global Link**               | COMEX Gold + USD/INR                                   | COMEX Silver + USD/INR                 | NYMEX Crude + USD/INR                                 |
+| **Macro Drivers**             | Fed rates, Inflation, Dollar Index, Geo-political risk | Same as Gold + Industrial demand       | OPEC policy, US inventory, Geo-politics, USD strength |
+| **Risk/Reward**               | Defensive asset, low risk                              | High beta, big moves                   | High intraday risk, big moves                         |
+| **Arbitrage/Spread**          | Gold vs GoldM, Calendar spreads                        | SilverM vs SilverMIC, Calendar spreads | Crude Calendar spreads (near vs far month)            |
+
+\*Values assume: **Gold \~₹70k/10g, Silver \~₹75k/kg, Crude \~\$65/bbl & USD/INR \~83**
+
+---
+
+### 🔑 Quick Takeaways
+
+* **GoldM (100g)** → best liquidity, safe-haven, defensive hedge.
+* **SilverM (5kg)** → more volatile, suits aggressive traders.
+* **Crude Oil (100 bbl)** → highly liquid, intraday & news-driven, needs quick reactions.
+
+---
