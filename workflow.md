@@ -63,3 +63,23 @@
 - Compliance & Reporting
   - SEBI norms
   - Auditing & regulations
+
+# Stock Trading Workflow Diagram
+
+```mermaid
+flowchart TD
+    A[Beginner Level] --> B[Cash: Buy/Sell Shares]
+    A --> C[F&O: Options Buying]
+    A --> D[Commodity: Intraday Crude/Gold]
+
+    B --> E[Intermediate: Technical Screening]
+    C --> F[Futures + Multi-leg Options]
+    D --> G[Macro + Futures Spreads]
+
+    E --> H[Expert: Algo & Hedging]
+    F --> I[Expert: Greeks + Volatility]
+    G --> J[Expert: Arbitrage + Global Hedging]
+
+    H --> K[Institutional: Quant Models]
+    I --> L[Institutional: HFT + Algo Execution]
+    J --> M[Institutional: Risk Desk + Compliance]
