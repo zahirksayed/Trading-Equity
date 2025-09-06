@@ -1,34 +1,65 @@
-flowchart TD
+# Stock Trading Workflow (Cash, F&O, Commodity)
 
-    %% Beginner Level
-    A1[Beginner Level] --> B1[Cash: Buy/Sell Shares<br>(Delivery & Intraday)]
-    A1 --> B2[F&O: Simple Options Buying<br>(Calls/Puts)]
-    A1 --> B3[Commodity: Intraday Gold/Crude]
+## Beginner Level
+- **Cash (Equity)**
+  - Buy/Sell shares
+  - Delivery (CNC)
+  - Intraday (MIS)
+  - Market / Limit / Stop Loss Orders
+- **F&O (Derivatives)**
+  - Simple Options Buying (Calls, Puts)
+  - Small capital, limited risk
+  - Exit before expiry
+- **Commodity**
+  - Gold/Crude intraday trading
+  - MCX contracts with fixed lot size
+  - High liquidity instruments
 
-    %% Intermediate Level
-    A2[Intermediate Level] --> C1[Cash: Stock Screening<br>Tech/Fundamental, BO/CO Orders]
-    A2 --> C2[F&O: Futures & Multi-leg Options<br>Hedging Strategies]
-    A2 --> C3[Commodity: Futures Spreads<br>Macro Analysis]
+## Intermediate Level
+- **Cash (Equity)**
+  - Stock Screening (Technical + Fundamental)
+  - Use indicators (RSI, MACD, VWAP, Volume breakout)
+  - Bracket Orders / Cover Orders
+  - Swing trades with GTT
+  - Journaling & review
+- **F&O**
+  - Futures trading (Long/Short positions)
+  - Hedging with Futures against Cash
+  - Multi-leg option strategies (Spreads, Covered Calls)
+  - Risk Management with Stop Loss & Position Sizing
+- **Commodity**
+  - Futures spreads (near-month vs far-month)
+  - Macro analysis (USD-INR, Oil supply, Geopolitics)
+  - Calendar spreads for hedging
 
-    %% Expert Level
-    A3[Expert Level] --> D1[Cash: Algo Trading, Arbitrage<br>Portfolio Hedging]
-    A3 --> D2[F&O: Options Greeks, Volatility Trading<br>Algo Execution]
-    A3 --> D3[Commodity: Global Hedging<br>Cross-Commodity Arbitrage]
+## Expert Level
+- **Cash (Equity)**
+  - Algorithmic & Quant Trading
+  - Momentum & Pairs Trading
+  - Cash-Futures Arbitrage
+  - Portfolio hedging with Index Options
+- **F&O**
+  - Advanced Multi-leg Strategies (Iron Condor, Straddle, Strangle)
+  - Option Chain & OI analysis
+  - Options Greeks (Delta, Theta, Vega, Gamma)
+  - Volatility Trading
+  - Algo-based automated execution
+- **Commodity**
+  - Global macro-driven trades
+  - Cross-commodity arbitrage (Gold-Silver ratio, Crude-NatGas correlation)
+  - Corporate hedging for imports/exports
 
-    %% Institutional Level
-    A4[Institutional / Pro Level] --> E1[Quant Models & AI/ML]
-    A4 --> E2[Algo Execution & HFT]
-    A4 --> E3[Risk Desk: VaR, Stress Testing]
-    A4 --> E4[Compliance & Reporting]
-
-    %% Level Connections
-    B1 --> C1
-    B2 --> C2
-    B3 --> C3
-    C1 --> D1
-    C2 --> D2
-    C3 --> D3
-    D1 --> E1
-    D2 --> E2
-    D3 --> E3
-    E1 --> E4
+## Institutional / Professional Level
+- Research Desk
+  - Quant models
+  - AI/ML-driven signals
+- Execution Desk
+  - Algo Execution
+  - Smart Order Routing
+  - High Frequency Trading (HFT)
+- Risk Desk
+  - Portfolio VaR
+  - Stress testing & exposure management
+- Compliance & Reporting
+  - SEBI norms
+  - Auditing & regulations
