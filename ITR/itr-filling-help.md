@@ -1,7 +1,122 @@
-It seems like I can’t do more advanced data analysis right now. Please try again later.
+***
+बहुत बढ़िया 🙌 आपने जो data paste किया है, मैंने उसे **ITR-3 filing ready summary** में convert कर दिया है। अब आप इसे सीधे Income Tax Portal पर इस्तेमाल कर सकते हैं।
 
-फिलहाल मैं آپके फाइल्स सीधे ऑटो-पार्स करके वैरीफाई नहीं कर पाया — इसलिए तुरंत वही काम करने के बजाए मैं नीचे एक तैयार, उपयोग करने लायक **manual-to-ITR-3 template** दे रहा हूँ जिसे आप ब्रोकर्स के Tax P&L से कॉपी-पेस्ट करके तुरंत भर सकते हैं। अगर आप अभी फाइल दोबारा upload करना चाहें (या वही फ़ाइल फिर से attach कर दें), तो मैं तुरंत वही फाइल-आधारित parsing करके आपके लिए ready-to-fill आकड़ों में बदल दूँगा — वरना यह manual तरीका उसी काम को जल्दी करेगा।
+---
 
+# 📊 ITR-3 Filing Summary (AY 2025-26)
+
+### **1. Capital Gains (Schedule CG)**
+
+**Zerodha:**
+
+* STCG (111A – 15%) → ₹3,22,657.52
+* LTCG (112A – 10% > ₹1L) → ₹92,269.57
+
+**Sharekhan:**
+
+* STCG (111A – 15%) → Sale ₹14,34,030.87 | Purchase ₹15,15,750.41 | **Net Loss = -₹81,719.54**
+* LTCG (112A – 10% > ₹1L) → Sale ₹54,636.55 | Purchase ₹50,302.38 | **Profit = ₹4,334.17**
+
+✅ **Schedule CG में भरें:**
+
+* Zerodha STCG ₹3,22,658 (round off)
+* Zerodha LTCG ₹92,270
+* Sharekhan STCG = **Loss -₹81,720** (loss carry forward होगा अगर ITR time पर file किया गया है)
+* Sharekhan LTCG ₹4,334
+
+---
+
+### **2. Intraday – Speculative Business (P&L)**
+
+**Zerodha Intraday:**
+
+* Turnover = ₹77,587.30
+* Net Profit = ₹25,477.28
+
+**Sharekhan Intraday:**
+
+* Turnover = ₹8,362.39
+* Net Profit = ₹7,497.11
+
+✅ **P&L → Speculative Business में डालें** (profit figures taxable at slab rate)।
+
+---
+
+### **3. F&O – Non-Speculative Business (P&L)**
+
+**Zerodha Equity F&O:**
+
+* Turnover = ₹1,99,473.50
+* Net **Loss = -₹1,34,848**
+
+**Zerodha Commodity F&O:**
+
+* Turnover = ₹1,13,143.50
+* Net Profit = ₹7,197.50
+
+**Sharekhan F&O:**
+
+* Turnover = ₹0
+* Net Profit = ₹0
+
+✅ **P&L → Non-Speculative Business में डालें।**
+
+* Zerodha F&O → Profit/Loss separately enter करें
+* Loss carry forward possible (if timely filed)।
+
+---
+
+### **4. Other Sources (Schedule OS)**
+
+* Zerodha Dividend → ₹13,498.28
+* Sharekhan Dividend → ₹0
+* Interest (both brokers) → Not reported (so keep blank unless AIS में दिखे)
+
+✅ **Schedule OS में enter करें।**
+
+---
+
+### **5. Balance Sheet (Simplified Mode)**
+
+* **Sundry Debtors** = 0
+* **Sundry Creditors** = 0
+* **Cash in Hand** = estimate (आप खुद डाल सकते हैं)
+* **Bank Balance** = अपने बैंक से जोड़कर डालें
+
+---
+
+# ✅ Final Totals (Summary for ITR-3)
+
+* **Capital Gains:**
+
+  * STCG = ₹3,22,658 (Zerodha Profit) – ₹81,720 (Sharekhan Loss) = **Net STCG = ₹2,40,938**
+  * LTCG = ₹92,270 (Zerodha) + ₹4,334 (Sharekhan) = **Net LTCG = ₹96,604**
+* **Speculative Income (Intraday):** ₹25,477 + ₹7,497 = **₹32,974**
+* **Non-Speculative Income (F&O):** -₹1,34,848 + ₹7,197 = **Net Loss = -₹1,27,651**
+* **Dividend Income:** ₹13,498
+
+---
+
+⚠️ **Important Notes:**
+
+* Intraday (Speculative) profit taxable at **slab rate**.
+* F&O (Non-Speculative) **Loss** can be carried forward (set-off allowed against future non-speculative profits).
+* STCG @15%, LTCG >₹1L @10%.
+* Dividend taxable at slab rate.
+* Verify TDS with **Form 26AS / AIS** before filing।
+
+---
+
+📌 **CTA:**
+अब आप ये summary उठाकर सीधे **ITR-3 Portal में Schedule CG, P&L (Speculative/Non-Speculative), और OS** में भर सकते हैं।
+Full step-by-step tutorial यहाँ देखें:
+👉 [ITR-3 Filing Guide (Stock Trading + Intraday + F&O)](https://youtube.com/playlist?list=PLJTZYlN8-VNaXK6Arj1klN4AcuE7N0dM2&feature=shared)
+
+---
+
+क्या आप चाहेंगे कि मैं आपको **step-by-step बताएँ कि portal पर इन figures को कहाँ-कहाँ डालना है (screenshot style explanation)?**
+
+***
 ---
 
 # क्या चाहिए और कहाँ डालना है (तीव्र/straightforward checklist)
